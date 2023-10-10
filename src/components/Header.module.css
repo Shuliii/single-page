@@ -1,0 +1,92 @@
+header {
+  padding-top: 43px;
+  padding-inline: 165px;
+  position: relative;
+}
+
+.ring {
+  position: absolute;
+  top: 133px;
+  left: -100px;
+  z-index: -10;
+  opacity: 25%;
+}
+
+.profilePhoto {
+  position: absolute;
+  top: 0;
+  right: 165px;
+  z-index: -10;
+  height: 720px;
+}
+
+.circle {
+  position: absolute;
+  top: 521px;
+  right: 545px;
+  z-index: -5;
+}
+
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.headerNav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  align-items: center;
+  padding-right: 27.49px;
+}
+
+.headerNav ul li {
+  cursor: pointer;
+}
+
+.mainHeader {
+  margin-top: 127px;
+  color: white;
+}
+
+.mainHeader h1 {
+  font-weight: 700;
+  font-size: 88px;
+  letter-spacing: -2.5px;
+}
+
+.mainHeader p {
+  margin-top: 43px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 445px;
+}
+
+header button {
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 66px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+  transition: color 500ms ease;
+}
+
+header button:hover {
+  color: var(--green);
+}

@@ -1,0 +1,83 @@
+@import "../vars.css";
+
+.sectionProject {
+  color: white;
+  margin-top: 140px;
+  padding-inline: 165px;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sectionHeader h2 {
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  font-weight: 700;
+}
+
+.sectionHeader button {
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+  transition: color 500ms ease;
+}
+
+.sectionHeader button:hover {
+  color: var(--green);
+}
+
+.sectionProject > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  list-style-type: none;
+  gap: 69px 30px;
+}
+
+.sectionProject ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionProject ul li img {
+  width: 540px;
+  height: auto;
+}
+
+.sectionProject ul li h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.sectionProject ul li div {
+  margin-top: 7px;
+}
+
+.sectionProject ul li div ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.sectionProject ul li div ul li {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--light-grey);
+}

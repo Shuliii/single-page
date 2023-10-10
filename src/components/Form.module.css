@@ -1,0 +1,55 @@
+@import "../vars.css";
+
+.form {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.inputControl {
+  position: relative;
+}
+
+.inputControl input {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 16px;
+  color: white;
+  width: 100%;
+}
+
+/* .inputControl input::placeholder {
+  color: white;
+  opacity: 50%;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.22px;
+} */
+
+.inputControl:nth-child(3) input {
+  height: 107px;
+}
+
+.form button {
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--green);
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+  width: 144px;
+  align-self: flex-end;
+  transition: color 0.5s ease;
+}
+
+.form button:hover {
+  color: var(--green);
+}
