@@ -10,10 +10,6 @@ import frontendmentor from "../assets/images/icon-frontend-mentor.svg";
 import linkedin from "../assets/images/icon-linkedin.svg";
 import twitter from "../assets/images/icon-twitter.svg";
 
-import photoDesktop from "../assets/images/image-profile-desktop.webp";
-import photoTablet from "../assets/images/image-profile-tablet.webp";
-import photoMobile from "../assets/images/image-profile-mobile.webp";
-
 const Header = () => {
   return (
     <>
