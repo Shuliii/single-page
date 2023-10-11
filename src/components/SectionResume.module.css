@@ -50,3 +50,17 @@ li p {
   top: 253px;
   opacity: 25%;
 }
+
+@media (max-width: 1024px) {
+  .section {
+    margin-top: 60px;
+    padding-inline: 30px;
+  }
+
+  .section ul {
+    padding-top: 52px;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    grid-row-gap: 52px;
+  }
+}

@@ -16,6 +16,22 @@
   padding-bottom: 92px;
 }
 
+@media (max-width: 1200px) {
+  .footer {
+    margin-top: 100px;
+    padding-inline: 30px;
+    padding-block: 60px 40px;
+  }
+
+  .mainFooter {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+  }
+}
+
 .mainFooter::after {
   position: absolute;
   content: "";
